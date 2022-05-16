@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{2C96F775-F794-4D92-B3A6-52C44322451E}">
+	<Platforms>
+		<Platform Name="Win32"/>
+		<Platform Name="x64"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Debug|x64">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|x64">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd;h;inc"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<Filter Name="gtk">
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\asprintf.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\cairo-gobject.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\cairo.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\epoxy.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\expat.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\ffi.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\fontconfig.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\freetype.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\fribidi.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\gdk_pixbuf-2.0.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\gettextpo.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\gio-2.0.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\glib-2.0.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\gmodule-2.0.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\gobject-2.0.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\graphene-1.0.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\gthread-2.0.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\gtk-4.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\harfbuzz-gobject.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\harfbuzz-subset.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\harfbuzz.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\iconv.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\intl.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\jpeg-static.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\jpeg.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\libpng16.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\libpng16_static.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\libxml2.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\pango-1.0.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\pangocairo-1.0.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\pangoft2-1.0.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\pangowin32-1.0.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\gdk-pixbuf-2.0\2.10.0\loaders\pixbufloader-ani.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\gdk-pixbuf-2.0\2.10.0\loaders\pixbufloader-gdip-bmp.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\gdk-pixbuf-2.0\2.10.0\loaders\pixbufloader-gdip-emf.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\gdk-pixbuf-2.0\2.10.0\loaders\pixbufloader-gdip-gif.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\gdk-pixbuf-2.0\2.10.0\loaders\pixbufloader-gdip-ico.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\gdk-pixbuf-2.0\2.10.0\loaders\pixbufloader-gdip-jpeg.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\gdk-pixbuf-2.0\2.10.0\loaders\pixbufloader-gdip-tiff.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\gdk-pixbuf-2.0\2.10.0\loaders\pixbufloader-gdip-wmf.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\gdk-pixbuf-2.0\2.10.0\loaders\pixbufloader-icns.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\gdk-pixbuf-2.0\2.10.0\loaders\pixbufloader-pnm.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\gdk-pixbuf-2.0\2.10.0\loaders\pixbufloader-qtif.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\gdk-pixbuf-2.0\2.10.0\loaders\pixbufloader-tga.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\gdk-pixbuf-2.0\2.10.0\loaders\pixbufloader-xbm.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\gdk-pixbuf-2.0\2.10.0\loaders\pixbufloader-xpm.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\pixman-1.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\pkgconf.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\tiff.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\turbojpeg-static.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\turbojpeg.lib"/>
+		<File RelativePath="..\..\..\..\..\gtk-build\gtk\x64\release\lib\zlib1.lib"/></Filter>
+		<File RelativePath="..\..\..\..\..\msys64\home\Yohann\gtk-fortran-gtk4\examples\bazaar.f90"/></Filter></Files>
+	<Globals/></VisualStudioProject>

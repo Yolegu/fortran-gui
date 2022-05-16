@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectType="typeStaticLibrary" ProjectCreator="Intel Fortran" Keyword="Static Library" Version="11.0" ProjectIdGuid="{91437F02-BF8C-4A36-A7D1-03421F18FC6A}">
+	<Platforms>
+		<Platform Name="Win32"/>
+		<Platform Name="x64"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32" ConfigurationType="typeStaticLibrary">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+				<Tool Name="VFLibrarianTool"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/></Configuration>
+		<Configuration Name="Debug|x64" ConfigurationType="typeStaticLibrary">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+				<Tool Name="VFLibrarianTool"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/></Configuration>
+		<Configuration Name="Release|Win32" ConfigurationType="typeStaticLibrary">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+				<Tool Name="VFLibrarianTool"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/></Configuration>
+		<Configuration Name="Release|x64" ConfigurationType="typeStaticLibrary">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+				<Tool Name="VFLibrarianTool"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<File RelativePath=".\src\api_compatibility.f90"/>
+		<File RelativePath=".\src\cairo-auto.f90"/>
+		<File RelativePath=".\src\gdk-auto.f90"/>
+		<File RelativePath=".\src\gdk-pixbuf-auto.f90"/>
+		<File RelativePath=".\src\gdk-pixbuf-hl.f90"/>
+		<File RelativePath=".\src\gdkevents-auto.f90"/>
+		<File RelativePath=".\src\glib-auto.f90"/>
+		<File RelativePath=".\src\graphene-auto.f90"/>
+		<File RelativePath=".\src\gsk-auto.f90"/>
+		<File RelativePath=".\src\gtk-auto.inc"/>
+		<File RelativePath=".\src\gtk-draw-hl.f90"/>
+		<File RelativePath=".\src\gtk-fortran.f90"/>
+		<File RelativePath=".\src\gtk-hl-assistant.f90"/>
+		<File RelativePath=".\src\gtk-hl-button.f90"/>
+		<File RelativePath=".\src\gtk-hl-chooser.f90"/>
+		<File RelativePath=".\src\gtk-hl-combobox.f90"/>
+		<File RelativePath=".\src\gtk-hl-container.f90"/>
+		<File RelativePath=".\src\gtk-hl-dialog.f90"/>
+		<File RelativePath=".\src\gtk-hl-entry.f90"/>
+		<File RelativePath=".\src\gtk-hl-infobar.f90"/>
+		<File RelativePath=".\src\gtk-hl-misc.f90"/>
+		<File RelativePath=".\src\gtk-hl-progress.f90"/>
+		<File RelativePath=".\src\gtk-hl-spin-slider.f90"/>
+		<File RelativePath=".\src\gtk-hl-tree.f90"/>
+		<File RelativePath=".\src\gtk-hl.f90"/>
+		<File RelativePath=".\src\gtk-sup.f90"/>
+		<File RelativePath=".\src\gtk.f90"/>
+		<File RelativePath=".\src\gtkenums-auto.inc"/>
+		<File RelativePath=".\src\pango-auto.f90"/>
+		<File RelativePath=".\src\plplot_extra.f90"/>
+		<File RelativePath=".\src\unix-print-auto.f90"/></Filter></Files>
+	<Globals/></VisualStudioProject>

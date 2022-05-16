@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{6989167D-11E4-40FE-8C1A-2192A86A7E90}") = "gtk-fortran", "gtk-fortran\gtk-fortran.vfproj", "{91437F02-BF8C-4A36-A7D1-03421F18FC6A}"
+EndProject
+Project("{6989167D-11E4-40FE-8C1A-2192A86A7E90}") = "gui-test", "gui-test\gui-test.vfproj", "{2C96F775-F794-4D92-B3A6-52C44322451E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{91437F02-BF8C-4A36-A7D1-03421F18FC6A} = {91437F02-BF8C-4A36-A7D1-03421F18FC6A}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91437F02-BF8C-4A36-A7D1-03421F18FC6A}.Debug|x64.ActiveCfg = Debug|x64
+		{91437F02-BF8C-4A36-A7D1-03421F18FC6A}.Debug|x64.Build.0 = Debug|x64
+		{91437F02-BF8C-4A36-A7D1-03421F18FC6A}.Debug|x86.ActiveCfg = Debug|Win32
+		{91437F02-BF8C-4A36-A7D1-03421F18FC6A}.Debug|x86.Build.0 = Debug|Win32
+		{91437F02-BF8C-4A36-A7D1-03421F18FC6A}.Release|x64.ActiveCfg = Release|x64
+		{91437F02-BF8C-4A36-A7D1-03421F18FC6A}.Release|x64.Build.0 = Release|x64
+		{91437F02-BF8C-4A36-A7D1-03421F18FC6A}.Release|x86.ActiveCfg = Release|Win32
+		{91437F02-BF8C-4A36-A7D1-03421F18FC6A}.Release|x86.Build.0 = Release|Win32
+		{2C96F775-F794-4D92-B3A6-52C44322451E}.Debug|x64.ActiveCfg = Debug|x64
+		{2C96F775-F794-4D92-B3A6-52C44322451E}.Debug|x64.Build.0 = Debug|x64
+		{2C96F775-F794-4D92-B3A6-52C44322451E}.Debug|x86.ActiveCfg = Debug|Win32
+		{2C96F775-F794-4D92-B3A6-52C44322451E}.Debug|x86.Build.0 = Debug|Win32
+		{2C96F775-F794-4D92-B3A6-52C44322451E}.Release|x64.ActiveCfg = Release|x64
+		{2C96F775-F794-4D92-B3A6-52C44322451E}.Release|x64.Build.0 = Release|x64
+		{2C96F775-F794-4D92-B3A6-52C44322451E}.Release|x86.ActiveCfg = Release|Win32
+		{2C96F775-F794-4D92-B3A6-52C44322451E}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {562837B0-2343-406D-9C08-4D92A21078AD}
+	EndGlobalSection
+EndGlobal
